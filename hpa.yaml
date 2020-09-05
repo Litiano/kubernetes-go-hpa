@@ -1,5 +1,5 @@
 apiVersion: autoscaling/v1
-king: HorizontalPodAutoscaler
+kind: HorizontalPodAutoscaler
 metadata:
   name: go-hpa
 spec:
