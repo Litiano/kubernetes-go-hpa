@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: go-hpa
-          image: golang:alpine
+          image: img-app-deployment
           resources:
             requests:
               cpu: "50m"
