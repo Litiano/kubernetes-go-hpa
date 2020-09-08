@@ -13,7 +13,7 @@ func greeting(s string) string {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	x := 0.0001
-	for i := 0; i <= 10000000000; i++ {
+	for i := 0; i <= 1000; i++ {
 		x += math.Sqrt(x)
 	}
 	fmt.Fprint(w, greeting("Code.education Rocks!"))
